@@ -29,6 +29,12 @@
 ## Modelagem física | SGBD MySql
 
 ```
+CREATE DATABASE Escola;
+USE Escola;
+```
+
+
+```
 CREATE TABLE Aluno
 (
 cod_aluno INT NOT NULL AUTO_INCREMENT,
