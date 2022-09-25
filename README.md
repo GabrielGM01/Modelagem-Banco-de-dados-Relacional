@@ -28,7 +28,7 @@
 
 ## Modelagem física | SGBD MySql
 
-'''
+```
 CREATE TABLE Aluno
 (
 cod_aluno INT NOT NULL AUTO_INCREMENT,
@@ -39,9 +39,9 @@ telefone VARCHAR(15) NOT NULL,
 endereco VARCHAR(60) NOT NULL,
 PRIMARY KEY(cod_aluno)
 );
-'''
+```
 
-'''
+```
 CREATE TABLE Curso
 (
 cod_curso INT NOT NULL AUTO_INCREMENT,
@@ -49,9 +49,9 @@ nome VARCHAR(45) NOT NULL,
 professor VARCHAR(45) NOT NULL,
 PRIMARY KEY(cod_curso)
 );
-'''
+```
 
-'''
+```
 CREATE TABLE Pacote
 (
 cod_pacote INT NOT NULL AUTO_INCREMENT,
@@ -62,9 +62,9 @@ valor DECIMAL NOT NULL,
 PRIMARY KEY(cod_pacote),
 FOREIGN KEY(cod_curso) REFERENCES Curso(cod_curso)
 );
-'''
+```
 
-'''
+```
 CREATE TABLE Pagamento
 (
 cod_pagamento INT NOT NULL AUTO_INCREMENT,
@@ -77,4 +77,4 @@ dt_pagamento DATE NOT NULL,
 PRIMARY KEY(cod_pagamento),
 FOREIGN KEY(cod_pacote) REFERENCES Pacote(cod_pacote)
 );
-'''
+```
