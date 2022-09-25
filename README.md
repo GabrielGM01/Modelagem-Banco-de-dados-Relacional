@@ -1,6 +1,6 @@
 # Modelagem de um Banco de dados relacional
 
-## Levantamento de Requisitos
+## Análise de Requisitos
 
 ### Escola de Música
 
@@ -12,3 +12,6 @@
 
 #### O aluno tem acesso a um portal financeiro, por meio do qual é possível saber qual foi o pacote adquirido, a parcela, o valor, a data de vencimento e a data de pagamento.
 
+## Modelo lógico
+
+<img src="gitimg/logico.drawio.png">
