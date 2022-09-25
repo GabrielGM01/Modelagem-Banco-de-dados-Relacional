@@ -12,6 +12,17 @@
 
 #### O aluno tem acesso a um portal financeiro, por meio do qual é possível saber qual foi o pacote adquirido, a parcela, o valor, a data de vencimento e a data de pagamento.
 
+<hr>
+
 ## Modelo lógico
 
 <img src="gitimg/logico.drawio.png">
+
+<hr>
+
+## Modelo relacional
+
+<img src="gitimg/relacional.png">
+
+<hr>
+
